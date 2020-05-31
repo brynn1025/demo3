@@ -1,0 +1,22 @@
+/*
+* @Author: 星14
+* @Date:   2020-05-19 14:16:02
+* @Last Modified by:   星14
+* @Last Modified time: 2020-05-19 14:18:53
+*/
+*{
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	.clearFix:after{
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+	}

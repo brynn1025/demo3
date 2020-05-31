@@ -1,0 +1,31 @@
+/*
+* @Author: 星14
+* @Date:   2020-05-19 14:24:10
+* @Last Modified by:   星14
+* @Last Modified time: 2020-05-19 14:55:25
+*/
+.nav{
+	cursor: pointer;
+}
+.nav li:hover{
+	background-color: yellow;
+}
+.nav li:hover>a{
+	color: white;
+}
+.nav li{
+	width: 140px;
+	height: 50px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 50px;
+}
+.nav>ul ul{
+	display: none;
+}
+.nav>ul>li{
+	float: left;
+}
+.nav>ul>li:hover>ul{
+	display: block;
+}
